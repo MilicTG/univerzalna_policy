@@ -5,8 +5,8 @@ function LinkButton({title, to}: {
     to: string
 }) {
     return (
-        <NavLink to={to} className="w-full md:w-72 bg-sky-700 hover:bg-sky-900 my-4 rounded-md transition duration-300 ease-in-out">
-            <p className="text-white py-4 text-center">{title}</p>
+        <NavLink to={to} className="w-full md:w-72 bg-sky-700 hover:bg-sky-900 my-3 rounded-md transition duration-300 ease-in-out">
+            <p className="text-white py-3 text-center">{title}</p>
         </NavLink>
     )
 }
